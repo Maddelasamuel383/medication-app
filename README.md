@@ -1,70 +1,149 @@
-# Getting Started with Create React App
+Medication Management System
+Project Overview:
+You are tasked with implementing a Medication Management app for both patients and caretakers. The app features role-based dashboards, medication tracking, and other essential functionalities. You will be working with React for the frontend, and SQLite and Node.js for the backend.
+Current State of the Codebase:
+The current codebase features:
+React for frontend development.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Role-based dashboard system for each user account (patients/caretakers).
 
-In the project directory, you can run:
 
-### `npm start`
+UI for medication tracking with calendar visualization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mock data for streaks, adherence rates, and medication logs.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Photo upload interface for medication proof (non-functional).
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Notification settings UI (non-functional).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All data is stored in local state (no persistence).
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Technology Stack:
+Frontend: React, JavaScript, React Query, CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend: SQLite, Node.js
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Core Requirements:
+User Authentication:
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Implement SQLite authentication for user login/signup functionality.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Medication Management:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Implement CRUD operations for managing medications:
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Add medications (name, dosage, frequency).
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Mark medications as taken for the day.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+View medication list.
+
+
+Display a simple adherence percentage for the medications.
+
+
+
+Phase 1 (Required) Features:
+SQLite Authentication: Implement user login/signup with SQLite authentication.
+
+
+Basic CRUD for Medications:
+
+
+Add medications with relevant details (name, dosage, frequency).
+
+
+Mark medications as taken for the day.
+
+
+View medications in a list format.
+
+
+Dashboard Implementation:
+
+
+Connect one dashboard (either patient or caretaker) to real data from SQLite.
+
+
+
+Phase 2 (Optional) Features:
+Real-Time Updates: Implement real-time updates for caretaker-patient interactions.
+
+
+Adherence Tracking: Implement basic adherence tracking functionality.
+
+
+
+Phase 3 (Bonus) Features:
+File Uploads: Implement file upload functionality for medication proof (photo upload).
+
+
+Deployment (Bonus): Deploy the app to Vercel or Netlify.
+
+
+
+Evaluation Criteria:
+Code Organization: Evaluate how well the code is structured and maintained.
+
+
+Component Reusability: Review how components are reused across the app.
+
+
+State Management: Evaluate the state management approach and its scalability.
+
+
+Error Handling: Ensure proper error handling for API calls and edge cases.
+
+
+Performance Considerations: Evaluate the app's performance, especially with re-renders.
+
+
+Security Awareness: Check for input sanitization and secure handling of user data.
+
+
+TypeScript Usage: Although TypeScript is not used, proper JavaScript usage will be assessed.
+
+
+
+Additional Requirements:
+Form Validation: Implement proper form validation with meaningful error messages.
+
+
+Loading/Error States: Handle loading and error states properly for user experience.
+
+
+Version Control: Use Git for version control with meaningful commit messages.
+
+
+Testing: Write 2-3 meaningful tests using Vitest for the app's functionalities.
+
+
+README: Include a README file with setup instructions for running the app locally.
+
+
+
+Submission Guidelines:
+Submit your project files, including the codebase, tests, and README.
+
+
+Ensure your repository is well-structured, and follow good coding practices.
+
+
+Ensure the app is functional as per the requirements and that it runs without errors.
+
