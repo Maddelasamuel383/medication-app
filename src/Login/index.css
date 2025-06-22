@@ -1,0 +1,156 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    padding: 8px;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.logo-con {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(34, 126, 224),rgb(85, 217, 85));
+    color:#ffffff;
+    padding:14px;
+    border-radius:8px;
+    align-items: center;
+}
+.logo {
+    height:60px;
+    width:60px;
+    background-color: transparent;
+}
+.description {
+    color:#ABB2B9;
+}
+.inner-con {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:8px;
+    align-items: center;
+}
+.patient-con {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:30vw;
+    height:55vh;
+    border-radius:8px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#ABB2B9;
+    cursor: pointer;
+    margin-right:12px;
+    padding:6px;
+}
+.patient-con:hover{
+    border-color:rgb(13, 180, 221);
+    border-width:2px;
+    border-style:solid;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+.person {
+    background-color:skyblue;
+    justify-content: center;
+    align-items: center;
+    border-radius:6px;
+    padding:12px;
+}
+.patient-con:hover .person {
+    background-color:#48C3EA;
+}
+.plogo {
+ color:#2508de;
+ height:3vh;
+ margin-top:6px;
+}
+.button {
+    width:25vw;
+    height:6vh;
+    color:#ffffff;
+    background-color:deepskyblue;
+    border-radius: 6px;
+    border-width:0px;
+    margin-bottom:6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:20px;
+}
+.bullet-item::marker {
+    color:rgb(15, 144, 195);
+}
+.lists-con{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.caretaker-con {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:30vw;
+    height:55vh;
+    border-radius:8px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#ABB2B9;
+    cursor: pointer;
+    margin-left:12px;
+    padding:6px;
+}
+.persons {
+    background-color:lightgreen;
+    justify-content: center;
+    align-items: center;
+    border-radius:6px;
+    padding:12px;
+}
+.clogo {
+    color:#2508de;
+ height:3vh;
+ margin-top:6px;
+}
+.lists-cons{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.bullet-items::marker {
+  color:green;
+}
+.caretaker-con:hover {
+    border-color:green;
+    border-width:2px;
+    border-style:solid;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+.caretaker-con:hover .persons{
+    background-color: green;
+}
+.buttons {
+    width:25vw;
+    height:6vh;
+    color:#ffffff;
+    background-color:green;
+    border-radius: 6px;
+    border-width:0px;
+    margin-bottom:6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:20px;
+}
+.pat {
+    color:rgb(19, 105, 204);
+}
+.care {
+    color: green;
+}

@@ -1,0 +1,374 @@
+.container {
+    display:flex;
+    flex-direction: column;
+}
+.inner-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:6px;
+    width: 100vw;
+    height: 200vh;
+    background-color: rgb(160, 165, 165);
+}
+.top-con {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 8px;
+    border-width: 0px;
+    width:70vw;
+    height:33vh;
+    color: #ffffff;
+    background-image: linear-gradient(to right, green,blue);
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    padding:4px;
+    align-items: center;
+}
+.logo {
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(232, 226, 226, 0.3);
+}
+.logo-des {
+    display: flex;
+    flex-direction: column;
+}
+.data-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rate-con {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.2);
+    color: #ffffff;
+    width:15vw;
+    height:12vh;
+    border-radius: 6px;
+    border-width: 0px;
+    padding: 6px;
+}
+.tab-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius:6px;
+    height:3vh;
+    width:70vw;
+    background-color:burlywood;
+    margin-top: 8px;
+    padding: 3px;
+    align-items: center;
+}
+.before {
+    background-color: transparent;
+    border-width:0px;
+    border-radius: 4px;
+    width:12vw;
+    padding: 3px;
+    padding-left:3px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+.after {
+    background-color: #ffffff;
+    border-width: 0px;
+    border-radius: 4px;
+    width:12vw;
+    padding: 3px;
+    padding-left:3px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+.overViewResponse {
+    display:flex;
+    flex-direction: column;
+    margin-top:8px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftt-con {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+    width: 35vw;
+    height: 30vh;
+}
+.today-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.medication-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: rgb(145, 155, 160);
+    border-radius: 8px;
+    padding: 6px;
+}
+.front {
+    display: flex;
+    flex-direction: column;
+}
+.pending {
+    color: #ffffff;
+    background-color: brown;
+    border-radius: 14px;
+    padding: 4px;
+    height: 6vh;
+    align-items: center;
+}
+.quick-con {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    background-color: #ffffff;
+    height: 30vh;
+    width: 34vw;
+    margin-left: 7px;
+    border-radius: 6px;
+    align-items: center;
+}
+.action-btns {
+    width:32vw;
+    height: 6vh;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.graph {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.recent-con {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:69vw;
+    height: 110vh;
+    border-radius: 6px;
+    margin-top: 8px;
+    padding: 8px;
+
+}
+.activities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 4px;
+    margin-top: 6px;
+    border-color: beige;
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.activity-des {
+    display: flex;
+    flex-direction: column;
+}
+.right-activity {
+    display: flex;
+    flex-direction: row;
+}
+.pcon {
+    padding: 4px;
+    border-width:2px;
+    border-radius: 6px;
+    border-style: solid;
+    margin-right: 3px;
+    border-color: beige;
+}
+.complete {
+    padding: 4px;
+    border-width:2px;
+    border-radius: 6px;
+    border-style:solid ;
+    background-color: lightgray;
+    border-color: beige;
+}
+.completem {
+    padding: 4px;
+    border-width:1px;
+    border-radius: 6px;
+    border-style:solid ;
+    background-color: red;
+    color: #ffffff;
+}
+.activity-tick {
+    background-color: lightgreen;
+    color: green;
+    padding: 4px;
+    border-radius: 18px;
+    border-width: 0px;
+    margin-right: 6px;
+}
+.activity-tickk {
+    background-color: rgb(231, 138, 138);
+    color: red;
+    padding: 4px;
+    border-radius: 18px;
+    border-width: 0px;
+    margin-right: 6px;
+}
+.calendar-con {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width:70vw;
+    margin-top: 6px;
+    height: 55vh;
+    border-radius: 6px;
+    border-width: 0px;
+    justify-content: space-between;
+    padding: 6px;
+}
+.coverview {
+    display: flex;
+    flex-direction: column;
+}
+.onee::marker {
+    color: green;
+    }
+.two::marker {
+    color: red;
+}
+.three::marker {
+    color: blue;
+}
+.lists {
+    align-self: flex-start;
+}
+.right-view {
+    display: flex;
+    flex-direction: column;
+}
+.calender-view {
+    width: 20vw;
+}
+.inner-view {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-width:1px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(57, 57, 175);
+    width:30vw;
+    height:13vh;
+    padding: 8px;
+}
+.not-con {
+    display: flex;
+    flex-direction:column ;
+    background-color: #ffffff;
+    border-radius:6px;
+    border-width: 0px;
+    width:70vw;
+    height:95vh;
+    margin-top: 6px;
+    padding: 6px;
+}
+.emai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+}
+.email-input-con {
+    width:65vw;
+    height: 4vh;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 6px;
+}
+.mail {
+    padding-left:20px;
+}
+.line {
+    border-width: 1px;
+    border-style: solid;
+    width:68vw;
+}
+.tbuttons {
+    background-color: transparent;
+    border-width: 0px;
+    cursor: pointer;
+}
+.onOff {
+    width: 8vw;
+    height: 6vh;
+}
+.man-con {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+}
+.preview-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 40vh;
+    width:70vw;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-width: 0px;
+    padding: 6px;
+    margin-top: 8px;
+}
+mail-logo {
+    color: green;
+}
+.preview {
+    width:60vw;
+    height: 30vh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    background-color: lightgreen;
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.last-btn {
+    background-color: rgb(66, 171, 66);
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    padding:6px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    align-self: flex-end;
+    cursor: pointer;
+    color: #ffffff;
+}
+.last-btn:hover {
+    background-color: green;
+}

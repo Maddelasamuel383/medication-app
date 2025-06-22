@@ -1,0 +1,284 @@
+.mainContainer {
+    display:flex;
+    flex-direction:column;
+}
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color:rgb(208, 212, 213);
+    position: relative;
+}
+.topInContainer{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(to right, blue,green);
+    width:65vw;
+    height:35vh;
+    padding:18px;
+    border-radius:8px;
+}
+.profileCon {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    background-color:rgb(0,0,0,0.3);
+    padding:8px;
+    height:40px;
+    color:#ffffff;
+    border-radius:8px;
+    width:30px;
+    align-self: center;
+    margin-right:12px;
+
+}
+.evening {
+    display: flex;
+    flex-direction: column;
+}
+.result {
+    color: #ffffff;
+}
+.bottomInContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.day {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.3);
+    width:18vw;
+    height:12vh;
+    color:#ffffff;
+    padding:8px;
+    border-radius:6px ;
+    justify-content: center;
+}
+.status {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.3);
+    width:18vw;
+    height:12vh;
+    color:#ffffff;
+    padding:8px;
+    border-radius: 6px;
+    justify-content: center;
+}
+.rate {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.3);
+    width:18vw;
+    position: obsolute;
+    height:12vh;
+    color:#ffffff;
+    padding:8px;
+    border-radius:6px;
+    justify-content: center;
+}
+.down-con {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    padding: 6px;
+    height: auto;
+    position: relative;
+    margin-top: 8px;
+    background-color:rgb(208, 212, 213);
+}
+.photo-con {
+    display:flex;
+    flex-direction: column;
+    position: obsolute;
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+    width:35vw;
+    height:65vh;
+    border-radius:4px;
+    border-width:1px;
+    border-style:solid;
+    border-color:grey;
+    padding:8px;
+}
+.logo-con {
+    display: flex;
+    flex: row;
+    background-image: linear-gradient(to right, #ffffff, #ffffff);
+    color:#000000;
+    justify-content: flex-start;
+}
+    .remainder {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:13vh;
+        align-items: center;
+        border-radius:8px;
+        border-style:solid;
+        border-width:1px;
+        border-color:grey;
+        padding: 8px;
+    }
+    .number {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .no {
+        padding:14px;
+        background-color:lightblue;
+        color: blue;
+        margin-right:8px;
+        border-radius:22px;
+        align-items: center;
+        height:2vh;
+    }
+    .ndes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .time {
+        display: flex;
+        flex-direction: row;
+        padding:8px;
+        border-radius:12px;
+        border-style:solid;
+        border-width: 1px;
+        border-color:grey;
+        height:2vh;
+        align-items: center;
+    }
+    .photoinputCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-width:1px;
+        border-style: dotted;
+        border-color: green;
+        width:35vw;
+        margin-top:8px;
+        height:30vh;
+        border-radius: 8px;
+    }
+    .photoFile {
+        border-radius:9px;
+        border-style:solid;
+        border-width: 1px;
+        padding:6px;
+    }
+    .button{
+        color:#ffffff;
+        background-color: green;
+        border-radius:8px;
+        border-style:solid;
+        border-width:0px;
+        margin-top: 4px;
+        align-items: center;
+        width:35vw;
+    }
+    .calendar-con {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #ffffff,#ffffff);
+        margin-left:8px;
+        padding:6px;
+        width:30vw;
+        align-items: center;
+        border-style:solid;
+        border-width:1px ;
+        border-color: grey;
+        border-radius: 6px;
+    }
+    .calendar-date {
+        width:30vw;
+        background-color: #ffffff;
+        align-items: center;
+    }
+    .cal-des {
+        align-self: flex-start;
+    }
+    .one::marker {
+        color: green;
+    }
+    .two::marker {
+        color: red;
+    }
+    .three::marker {
+        color: blue;
+    }
+    .lists {
+        align-self: flex-start;
+    }
+    .marked-con {
+        display:flex;
+        flex-direction: column;
+        padding:8px;
+    }
+    .upper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:6px;
+        background-color: lightgreen;
+        border-width:1px;
+        border-style:dotted;
+        border-radius:8px;
+        width:33vw;
+        height:25vh;
+    }
+    .ticked {
+        padding:8px;
+        background-color:green;
+        border-radius:20px;
+        color:white;
+    }
+    .result {
+        color:lightgreen;
+    }
+    .remainderr {
+        margin-top:6px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:13vh;
+        align-items: center;
+        border-radius:8px;
+        border-style:solid;
+        border-width:1px;
+        border-color:green;
+        padding: 8px;
+        background-color: lightgrey;
+    }
+    .noo {
+        padding:14px;
+        background-color:green;
+        color: white;
+        margin-right:8px;
+        border-radius:22px;
+        align-items: center;
+        height:2vh;
+    }
+    .timee {
+        display: flex;
+        flex-direction: row;
+        padding:8px;
+        border-radius:12px;
+        border-width: 0px;
+        height:2vh;
+        align-items: center;
+        background-color: grey;
+        color: green;
+    }
+    .last {
+        color: green;
+    }

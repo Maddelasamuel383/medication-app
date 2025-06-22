@@ -1,0 +1,13 @@
+.home-container {
+    display: floex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home-patient-con {
+    display: flex;
+    flex-direction: column;
+}
+.home-caretaker-con {
+    display: flex;
+    flex-direction: column;
+}
